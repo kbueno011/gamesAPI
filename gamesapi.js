@@ -20,12 +20,10 @@ async function criarCardJogo(jogo) {
     const titulo = document.createElement('h2')
     titulo.textContent = jogo.title
 
-    const descricao = document.createElement('p')
-    descricao.textContent = jogo.short_description
-
+   
     card.appendChild(imagem)
     card.appendChild(titulo)
-    card.appendChild(descricao)
+   
 
     galeria.appendChild(card)
 }
